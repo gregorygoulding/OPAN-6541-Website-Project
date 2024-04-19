@@ -1,0 +1,13 @@
+What do I want this website to be about? What is the objective?
+
+What information should it convey, and why?
+
+
+Ideas:
+
+1. Digital resume. Could break out by Deloitte/GU jobs and Caps part-time job
+2. Given my Hungarian-American background, make a Budapest tourism site to inform potential visitors of the best places to go, broken out by Buda/Pest/Outside City
+3. Given that JavaScript and Python apps are not expected nor convenient for this project, I should avoid the temptation to make a "Tool" website. Even though I love that concept... stick to informational.
+4. Something to do with my hobbies? Collecting, hockey, traveling...
+
+So far, I like the Budapest idea!
