@@ -57,7 +57,7 @@ div.row {
 
 div.content-box {
     float: left;
-    width: 50%;
+    flex: 50%;
     padding-left: 5%;
 }
 
