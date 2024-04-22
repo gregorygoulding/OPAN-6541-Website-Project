@@ -13,14 +13,14 @@ h2 {
 }
 
 h3 {
-    padding-left: 20px; 
+    padding-left: 20px;
     padding-top: 50px;
     color: navy;
 }
 
 .overview {
     width: 45%;
-    padding-left: 20px; 
+    padding-left: 20px;
 }
 
 .slide {
@@ -50,10 +50,21 @@ iframe {
     padding-left: 20px;
 }
 
+div.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 div.content-box {
     float: left;
     width: 50%;
     padding-left: 5%;
+}
+
+@media screen and (max-width: 600px) {
+    div.row {
+        flex-direction: column;
+    }
 }
 
 .btn.btn-primary {
@@ -69,16 +80,21 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensure the body fills the viewport height */
+    min-height: 100vh;
+    /* Ensure the body fills the viewport height */
 }
 
 .content {
-    flex: 1; /* Grow to fill remaining space */
+    flex: 1;
+    /* Grow to fill remaining space */
 }
 
 footer {
-    background-color: #894c0b; /* Add a background color for visibility */
-    color: #fff; /* Text color for better contrast */
-    padding: 20px; /* Add padding for spacing */
+    background-color: #894c0b;
+    /* Add a background color for visibility */
+    color: #fff;
+    /* Text color for better contrast */
+    padding: 20px;
+    /* Add padding for spacing */
     text-align: center;
 }
