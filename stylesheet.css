@@ -33,3 +33,30 @@ footer {
 iframe {
     padding-left: 20px;
 }
+
+div.content-box {
+    float: left;
+    width: 50%;
+}
+
+/*For the following 3 sections, I got ChatGPT's help to fix the text box to the bottom of the page.
+It was previously floating around, out of place below the bulleted list.
+Link to the chat: https://chat.openai.com/share/566fab58-488e-44b0-9ab5-ae1989f2bdae */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body fills the viewport height */
+}
+
+.content {
+    flex: 1; /* Grow to fill remaining space */
+}
+
+footer {
+    background-color: #894c0b; /* Add a background color for visibility */
+    color: #fff; /* Text color for better contrast */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center;
+}
