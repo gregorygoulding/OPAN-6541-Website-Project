@@ -1,5 +1,11 @@
+.navbar {
+    --bs-navbar-color: gray;
+    --bs-navbar-hover-color: orange;
+    --bs-navbar-active-color: orange;
+}
+
 h1 {
-    color: brown;
+    color: navy;
 }
 
 h2 {
@@ -9,6 +15,7 @@ h2 {
 h3 {
     padding-left: 20px; 
     padding-top: 50px;
+    color: navy;
 }
 
 .overview {
@@ -46,6 +53,11 @@ iframe {
 div.content-box {
     float: left;
     width: 50%;
+}
+
+.btn.btn-primary {
+    background-color: hwb(31 4% 26%);
+    border-color: white;
 }
 
 /*For the following 3 sections, I got ChatGPT's help to fix the text box to the bottom of the page.
